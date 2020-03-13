@@ -1,0 +1,17 @@
+<div class="row justify-content-center">
+    <div class="card border-primary mb-3" style="max-width: 18rem;">
+        <div class="card-header">Login</div>
+        <div class="card-body">
+            <form class="p-4" (ngSubmit)="ingresar()">
+
+                <input type="text" [(ngModel)]="nombre" name="nombre" class="form-control" placeholder="Nombre de usuario" autofocus>
+
+
+                <button [disabled]="nombre.trim().length === 0" class="btn btn-outline-primary btn-block margin-top-10">
+        Ingresar
+      </button>
+
+            </form>
+        </div>
+    </div>
+</div>

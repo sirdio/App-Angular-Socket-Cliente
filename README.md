@@ -1,6 +1,7 @@
-# Basico
+# angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
+
+Recuerden que la aplicación de Angular necesitan ejecutar el npm install para reconstruir los módulos de node.
 
 ## Development server
 
